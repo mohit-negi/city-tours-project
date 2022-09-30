@@ -22,6 +22,7 @@ export default class Tour extends Component
                     width="200px"
                     height="200px"
                     src={img}
+                    alt=""
                     />
                     <span className="close-btn" onClick={()=>{removetour(id)}}>
                     <i className="fa-solid fa-rectangle-xmark"></i>
