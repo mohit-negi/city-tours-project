@@ -3,7 +3,7 @@ $mainblack:#222;
 $mainorange:#ffa600;
 $mainwhite:#fff;
 $maingray:#cecece;
-
+$contentgray:#828282;
 
 *{
   margin: 0;
@@ -12,6 +12,5 @@ $maingray:#cecece;
 }
 body{
   background: $maingray;
-  color: $mainorange;
   font-family: 'Abyssinica SIL', serif;
 }

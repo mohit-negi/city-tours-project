@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../KTW Tours.png"
+import logo from "../../KTW_tours.png"
 import "./Navbar.scss"
 function Navbar(){
     return (
