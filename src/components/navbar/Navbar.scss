@@ -8,15 +8,15 @@
 .navbar{
     background: $mainblack;
     padding: 0.5rem 1rem;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 .nav-links{
-    align-self: center;
+    display: flex;
+    align-items: center;
     list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    padding: 5px 40px;
+    gap: 2rem;
 }
 .nav-link{
     color: $maingray;
@@ -29,5 +29,22 @@
     }
 }
 .active{
-    color: $maingreen;
+    color: $mainorange;
 }
+/*
+//grid-styling
+.navbar{
+    background: $mainblack;
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-align: center;
+}
+.nav-links{
+    align-self: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+*/
